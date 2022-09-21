@@ -11,4 +11,9 @@ public class SimpleController {
         return "Hello from cloud";
     }
 
+    @GetMapping("/whothebest")
+    public String whothebest() {
+        return "Tanya - THE BEST!";
+    }
+
 }
